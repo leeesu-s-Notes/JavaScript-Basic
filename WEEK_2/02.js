@@ -49,6 +49,7 @@ let user = {
 };
 
 // 여기는 값을 넣어줘도 초기값일뿐, undefined일때만 의미가 있다.
+// birthday나옴
 let {name, age, birthday = "today" } = user;
 console.log(name);
 console.log(age);
